@@ -1,6 +1,6 @@
 # Spring Cloud Config 3.0 Demo 
 
-###Pre-req
+### Pre-req
 * Config server instance named "config-server". 
 ```bash
 cf create-service p.config-server standard config-server -c '{"git": { "uri": "https://github.com/spring-cloud-workspace/confgurations" } }'
